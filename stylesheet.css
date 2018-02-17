@@ -1,0 +1,160 @@
+body, p
+{
+	text-align: left;
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+a { color: #003333; }
+
+h1
+{
+	font-size: 1.4em;
+}
+
+h2
+{
+	font-size: 1.2em;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.receipt {
+	font-family: monospace;
+	font-size: 10px;
+	text-align: center;
+	width: 80mm;
+}
+
+.receipt p {
+	text-align: left;
+}
+
+.receipt h1 {
+	font-size: 1.5em;
+}
+
+.receipt h2 {
+	font-size: 1.3em;
+}
+
+.receipt table {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.receipt td {
+	text-align: left; 
+	vertical-align: top;
+}
+
+
+.receipt td.value {
+	text-align: right; 
+	vertical-align: bottom;
+}
+
+.receipt bold {
+	font-weight: bold;
+}
+
+
+.switch {
+    background-color: #000000;
+    text-align: center;
+}
+
+.switch button {
+	color: #08233e;
+	font: 2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+	padding: 14px;
+	background: url(images/button-overlay.png) repeat-x center #ffcc00;
+	background-color: rgba(255,204,0,1);
+	border: 1px solid #ffcc00;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border-bottom: 1px solid #9f9f9f;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+
+.switch button:hover {
+	background-color: rgba(255,204,0,0.8);
+}
+
+.switch button:active {
+	position: relative;
+	top: 2px;
+}
+
+.switch button.disabled {
+	color: #08233e;
+	font: 2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+	padding: 14px;
+	background: url(images/button-overlay.png) repeat-x center #ffcc00;
+	background-color: rgba(153,153,153,1);
+	border: 1px solid #cccccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border-bottom: 1px solid #9f9f9f;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor: default;
+}
+
+
+.switch button.disabled:hover {
+	background-color: rgba(153,153,153,1);
+}
+
+.switch button.disabled:active {
+	position: relative;
+	top: 0px;
+}
+
+.x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 14px;
+}
+.x-grid-with-row-lines .x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 3px;
+}
+.x-grid-checkheader {
+    height: 14px;
+    background-image: url('images/unchecked.gif');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.x-grid-checkheader-checked {
+    background-image: url('images/checked.png');
+}
+
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
+
+.dataload table {border-spacing: 0; border-collapse: collapse;}
+.dataload h1 {font-size: 1.5em;}
+.dataload h2 {font-size: 1.3em;}
+.dataload p {text-align: left;}
+.dataload td.value, .dataload th.value {width: 50px; text-align: right;}
+.dataload td, .dataload th {text-align: left; vertical-align: top; padding-left: 5px; padding-right: 5px;}
+.dataload th {font-weight: bold;}
+.bold {font-weight: bold;}
+.summary {border-top: thin solid black;}
+
+.table1 td, .table1 th {text-align: left; vertical-align: top; padding-left: 4px; padding-right: 4px;}
+.totalfields {font-weight: bold; font-size: 13px;}
